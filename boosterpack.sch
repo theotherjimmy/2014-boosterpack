@@ -588,81 +588,12 @@ Using all header pins to connect to XL booster packs.</description>
 <wire x1="-1.27" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="6.35" y1="-1.27" x2="6.35" y2="1.27" width="0.127" layer="21"/>
 <wire x1="6.35" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="-1.27" y1="-1.27" x2="6.35" y2="-1.27" width="0.127" layer="51"/>
-<wire x1="6.35" y1="-1.27" x2="6.35" y2="1.27" width="0.127" layer="51"/>
-<wire x1="6.35" y1="1.27" x2="-1.27" y2="1.27" width="0.127" layer="51"/>
 <pad name="1" x="0" y="0" drill="1.1" shape="square" rot="R180"/>
 <pad name="2" x="2.54" y="0" drill="1.1"/>
 <pad name="3" x="5.08" y="0" drill="1.1"/>
-<text x="-7.62" y="0" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.54" y="0" size="1.27" layer="21" align="center-right">&gt;NAME</text>
 </package>
 <package name="POWERPOLE_DOUBLE">
-<wire x1="2.5" y1="4.2" x2="-2.5" y2="4.2" width="0.127" layer="51"/>
-<wire x1="-2.55" y1="4.2" x2="-2.325" y2="3.975" width="0.127" layer="51"/>
-<wire x1="2.55" y1="4.2" x2="2.325" y2="3.975" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="-2.5" x2="-3.7" y2="2.5" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="2.55" x2="-3.925" y2="2.325" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="-2.55" x2="-3.925" y2="-2.325" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-3.7" x2="-2.5" y2="-3.7" width="0.127" layer="51"/>
-<wire x1="-2.55" y1="-3.7" x2="-2.325" y2="-3.925" width="0.127" layer="51"/>
-<wire x1="2.55" y1="-3.7" x2="2.325" y2="-3.925" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="3.95" x2="-2.37" y2="3.95" width="0.127" layer="51"/>
-<wire x1="2.37" y1="3.95" x2="3.95" y2="3.95" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="3.95" x2="-3.95" y2="2.37" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="-2.37" x2="-3.95" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="-3.95" y1="-3.95" x2="-2.37" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="2.37" y1="-3.95" x2="3.95" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="-3.16" y1="3.555" x2="3.16" y2="3.555" width="0.127" layer="51"/>
-<wire x1="3.16" y1="3.555" x2="3.16" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="3.16" y1="-0.395" x2="2.765" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="2.765" y1="-0.395" x2="2.765" y2="3.16" width="0.127" layer="51"/>
-<wire x1="2.765" y1="3.16" x2="-2.765" y2="3.16" width="0.127" layer="51"/>
-<wire x1="-2.765" y1="3.16" x2="-2.765" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="-2.765" y1="-0.395" x2="-3.16" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="-3.16" y1="-0.395" x2="-3.16" y2="3.555" width="0.127" layer="51"/>
-<wire x1="-2.37" y1="-0.395" x2="-2.37" y2="-2.37" width="0.127" layer="51"/>
-<wire x1="-2.37" y1="-2.37" x2="-1.975" y2="-2.765" width="0.127" layer="51"/>
-<wire x1="-1.975" y1="-2.765" x2="1.975" y2="-2.765" width="0.127" layer="51"/>
-<wire x1="1.975" y1="-2.765" x2="2.37" y2="-2.37" width="0.127" layer="51"/>
-<wire x1="2.37" y1="-2.37" x2="2.37" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="-2.37" y1="-0.395" x2="-1.975" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="2.37" y1="-0.395" x2="1.975" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="12.1" y1="-2.5" x2="12.1" y2="2.5" width="0.127" layer="51"/>
-<wire x1="10.4" y1="4.2" x2="5.4" y2="4.2" width="0.127" layer="51"/>
-<wire x1="5.35" y1="4.2" x2="5.575" y2="3.975" width="0.127" layer="51"/>
-<wire x1="10.45" y1="4.2" x2="10.225" y2="3.975" width="0.127" layer="51"/>
-<wire x1="12.1" y1="2.55" x2="11.875" y2="2.325" width="0.127" layer="51"/>
-<wire x1="12.1" y1="-2.55" x2="11.875" y2="-2.325" width="0.127" layer="51"/>
-<wire x1="4.2" y1="-2.5" x2="4.2" y2="2.5" width="0.127" layer="51"/>
-<wire x1="4.2" y1="2.55" x2="3.975" y2="2.325" width="0.127" layer="51"/>
-<wire x1="4.2" y1="-2.55" x2="3.975" y2="-2.325" width="0.127" layer="51"/>
-<wire x1="10.4" y1="-3.7" x2="5.4" y2="-3.7" width="0.127" layer="51"/>
-<wire x1="5.35" y1="-3.7" x2="5.575" y2="-3.925" width="0.127" layer="51"/>
-<wire x1="10.45" y1="-3.7" x2="10.225" y2="-3.925" width="0.127" layer="51"/>
-<wire x1="3.95" y1="3.95" x2="5.53" y2="3.95" width="0.127" layer="51"/>
-<wire x1="10.27" y1="3.95" x2="11.85" y2="3.95" width="0.127" layer="51"/>
-<wire x1="11.85" y1="3.95" x2="11.85" y2="2.37" width="0.127" layer="51"/>
-<wire x1="11.85" y1="-2.37" x2="11.85" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="3.95" y1="3.95" x2="3.95" y2="2.37" width="0.127" layer="51"/>
-<wire x1="3.95" y1="-2.37" x2="3.95" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="3.95" y1="-3.95" x2="5.53" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="10.27" y1="-3.95" x2="11.85" y2="-3.95" width="0.127" layer="51"/>
-<wire x1="4.74" y1="3.555" x2="11.06" y2="3.555" width="0.127" layer="51"/>
-<wire x1="11.06" y1="3.555" x2="11.06" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="11.06" y1="-0.395" x2="10.665" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="10.665" y1="-0.395" x2="10.665" y2="3.16" width="0.127" layer="51"/>
-<wire x1="10.665" y1="3.16" x2="5.135" y2="3.16" width="0.127" layer="51"/>
-<wire x1="5.135" y1="3.16" x2="5.135" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="5.135" y1="-0.395" x2="4.74" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="4.74" y1="-0.395" x2="4.74" y2="3.555" width="0.127" layer="51"/>
-<wire x1="5.53" y1="-0.395" x2="5.53" y2="-2.37" width="0.127" layer="51"/>
-<wire x1="5.53" y1="-2.37" x2="5.925" y2="-2.765" width="0.127" layer="51"/>
-<wire x1="5.925" y1="-2.765" x2="9.875" y2="-2.765" width="0.127" layer="51"/>
-<wire x1="9.875" y1="-2.765" x2="10.27" y2="-2.37" width="0.127" layer="51"/>
-<wire x1="10.27" y1="-2.37" x2="10.27" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="5.53" y1="-0.395" x2="5.925" y2="-0.395" width="0.127" layer="51"/>
-<wire x1="10.27" y1="-0.395" x2="9.875" y2="-0.395" width="0.127" layer="51"/>
 <wire x1="2.5" y1="4.2" x2="-2.5" y2="4.2" width="0.127" layer="21"/>
 <wire x1="-2.55" y1="4.2" x2="-2.325" y2="3.975" width="0.127" layer="21"/>
 <wire x1="2.55" y1="4.2" x2="2.325" y2="3.975" width="0.127" layer="21"/>
@@ -731,7 +662,7 @@ Using all header pins to connect to XL booster packs.</description>
 <pad name="1" x="0" y="0" drill="2" diameter="3.81" shape="square" rot="R90"/>
 <pad name="2" x="7.9" y="0" drill="2" diameter="3.81"/>
 <text x="0.79" y="-5.53" size="1.27" layer="25">&gt;NAME</text>
-<text x="0.79" y="4.345" size="1.27" layer="27">&gt;VALUE</text>
+<text x="0" y="5.08" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="SDR1006">
 <description>Bourns SDR1006 package
@@ -768,10 +699,6 @@ see http://octopart.com/sdr1006-100ml-bourns-57875 for details</description>
 <rectangle x1="4" y1="-0.5" x2="7" y2="3" layer="21"/>
 </package>
 <package name="PHOENIXSCREWTERMINAL_2">
-<wire x1="-5" y1="3.7" x2="5" y2="3.7" width="0.127" layer="51"/>
-<wire x1="-5" y1="-10.6" x2="5" y2="-10.6" width="0.127" layer="51"/>
-<wire x1="5" y1="-10.6" x2="5" y2="3.7" width="0.127" layer="51"/>
-<wire x1="-5" y1="3.7" x2="-5" y2="-10.6" width="0.127" layer="51"/>
 <pad name="1" x="-2.5" y="0" drill="1.5" shape="square"/>
 <pad name="2" x="2.5" y="0" drill="1.5"/>
 <text x="-3" y="-3" size="1.27" layer="25">&gt;NAME</text>
