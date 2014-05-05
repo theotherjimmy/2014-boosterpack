@@ -123,9 +123,8 @@
 <hole x="81.28" y="69.215" drill="3.2"/>
 <hole x="81.28" y="29.845" drill="3.2"/>
 <text x="79.375" y="43.815" size="1.27" layer="52" rot="MR90" align="center-right">Power</text>
-<text x="17.145" y="43.815" size="1.27" layer="52" rot="MR90" align="center-right">Power</text>
 <text x="81.915" y="43.815" size="1.27" layer="52" rot="MR90" align="center-right">Ground</text>
-<text x="14.605" y="43.815" size="1.27" layer="52" rot="MR90" align="center-right">Ground</text>
+<text x="13.97" y="43.815" size="1.27" layer="52" rot="MR90" align="center-right">Ground</text>
 <text x="76.835" y="43.815" size="1.27" layer="52" rot="MR90" align="center-right">Signal</text>
 <text x="19.685" y="43.815" size="1.27" layer="52" rot="MR90" align="center-right">Signal</text>
 <wire x1="22.86" y1="54.61" x2="20.955" y2="54.61" width="0.6096" layer="52"/>
@@ -152,6 +151,7 @@
 <text x="21.59" y="66.04" size="1.27" layer="51" align="center-left">3v3</text>
 <text x="21.59" y="69.85" size="1.27" layer="51" align="center-left">5v</text>
 <text x="74.93" y="69.85" size="1.27" layer="51" align="center-right">5v</text>
+<text x="17.145" y="43.815" size="1.27" layer="52" rot="MR0" align="center-left">+</text>
 </plain>
 <libraries>
 <library name="StellarisLaunchPad_Fred">
